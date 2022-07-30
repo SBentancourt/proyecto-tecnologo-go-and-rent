@@ -12,8 +12,8 @@ import java.util.List;
 @Service
 public class PaypalServiceImpl {
 
-    private static final String usernameGoAndRent = "AYnQJNi-O__v7GYcLWR4W4FVkaMY_JqKRt7ujIgs43Csz_peoJkbVOW90OJFDkla3hkAGU8woj5Zne-_";
-    private static final String passwordGoAndRent = "ED_3SsNKOSl_v9ZLTHf7yh8eg6D3eCv9Kr0Ql3ugUGnzEvsv58yIU43GSCiHjZor1Eue0wrhX_6GGfRX";
+    private static final String usernameGoAndRent = "Usuario-PAYPAL";
+    private static final String passwordGoAndRent = "Contraseña-PAYPAL";
 
     private APIContext apiContext = new APIContext(usernameGoAndRent, passwordGoAndRent, "sandbox");
 
