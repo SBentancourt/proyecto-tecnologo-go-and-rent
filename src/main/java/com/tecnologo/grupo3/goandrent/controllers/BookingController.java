@@ -37,8 +37,8 @@ public class BookingController {
     public static final String SUCCESS_URL = "booking/pay/success";
     public static final String SUCCESS_URL_WEB = "booking/pay/success-web";
     public static final String CANCEL_URL = "booking/pay/cancel";
-    private static final String usernameGoAndRent = "AYnQJNi-O__v7GYcLWR4W4FVkaMY_JqKRt7ujIgs43Csz_peoJkbVOW90OJFDkla3hkAGU8woj5Zne-_";
-    private static final String passwordGoAndRent = "ED_3SsNKOSl_v9ZLTHf7yh8eg6D3eCv9Kr0Ql3ugUGnzEvsv58yIU43GSCiHjZor1Eue0wrhX_6GGfRX";
+    private static final String usernameGoAndRent = "Usuario_PAYPAL";
+    private static final String passwordGoAndRent = "Contraseña_PAYPAL";
 
     @Autowired
     private PaypalServiceImpl paypalService;
