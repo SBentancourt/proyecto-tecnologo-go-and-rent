@@ -19,7 +19,7 @@ import java.util.function.Consumer;
 @Service
 public class S3Service {
     private final static String BUCKET = "produccion-proyectofinal-imagenes";
-    private final AwsBasicCredentials credentials = AwsBasicCredentials.create("AKIA53NZALD2B4NZJQSH", "m041s+dY29eL75rZt790lZsC4pVnK0kyIvU8DMF8");
+    private final AwsBasicCredentials credentials = AwsBasicCredentials.create("IDENTIFICADOR", "CLAVE");
     private final StaticCredentialsProvider credentialsProvider = StaticCredentialsProvider.create(credentials);
 
     private final S3Client client = S3Client.builder().region(Region.of("us-east-1"))
