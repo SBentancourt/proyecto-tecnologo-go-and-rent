@@ -1,4 +1,4 @@
-{
+/* {
   "ipcMode": null,
   "executionRoleArn": "arn:aws:iam::952260122868:role/ecsTaskExecutionRole",
   "containerDefinitions": [
@@ -96,4 +96,5 @@
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
   "volumes": []
-}
+} 
+*/
